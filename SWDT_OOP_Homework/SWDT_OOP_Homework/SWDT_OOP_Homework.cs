@@ -19,10 +19,6 @@ namespace SWDT_OOP_Homework
 
         public abstract void changeData(String changes);
 
-        protected void finalize()
-        {
-        }
-
         protected void setSizeOfStorage(int value) => size = value;
 
     }
